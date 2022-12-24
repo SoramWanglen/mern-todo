@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  height: 40px;
+  width: 50%;
+  border: none;
+  border-bottom: 2px #0d121b solid;
+  background: none;
+  font-size: 1.5rem;
+  color: #b0eed4;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  width: 25%;
+  height: 45px;
+  border: none;
+  margin-left: 10px;
+  font-size: 25px;
+  background: #202f4e;
+  border-radius: 5px;
+  color: #c8cbd3;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+  padding: 15px;
+  background: #171a1f;
+  border-radius: 5px;
+}
+
+li {
+  padding: 15px;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  background: #282c34;
+  border-radius: 5px;
+  overflow-wrap: break-word;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 300px) {
+  .App {
+    width: 80%;
+  }
+
+  input {
+    width: 100%
+  }
+
+  button {
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  .App {
+    width: 60%;
+  }
+
+  input {
+    width: 50%;
+  }
+
+  button {
+    width: 30%;
+    margin-left: 10px;
+    margin-top: 0;
+  }
+}
